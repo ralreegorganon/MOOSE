@@ -521,6 +521,7 @@ function OPSZONE:SetMarkZone(Switch, ReadOnly)
     end    
     self.marker:ToAll()
   else
+    self.markZone = false
     if self.marker then
       self.marker:Remove()
     end

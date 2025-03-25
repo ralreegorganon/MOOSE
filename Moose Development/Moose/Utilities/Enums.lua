@@ -605,7 +605,9 @@ ENUMS.Storage = {
     CH47 = {}, -- Chinook specifics
     OH58 = {}, -- Kiowa specifics
     UH1H = {}, -- Huey specifics
-    AH64D = {}, -- Huey specifics
+    AH64D = {}, -- Apache specifics,
+    MI24 = {}, -- Hind specifics
+    MI8 = {}, -- Hip specifics
   }
 }
 
@@ -1281,6 +1283,12 @@ ENUMS.Storage.weapons.droptanks.JAYHAWK_120_Fuel_Tank = "weapons.droptanks.JAYHA
 ENUMS.Storage.weapons.bombs.GBU_15_V_1_B = "weapons.bombs.GBU_15_V_1_B"
 ENUMS.Storage.weapons.missiles.HYDRA_70_M151_APKWS = {4,4,8,292}
 ENUMS.Storage.weapons.missiles.HYDRA_70_M282_APKWS = {4,4,8,293}
+-- Shared by Russian helos
+ENUMS.Storage.weapons.containers.GUV_YakB_GSHP = {4,15,46,170}
+ENUMS.Storage.weapons.containers.GUV_VOG = {4,15,46,171}
+ENUMS.Storage.weapons.bombs.KMGU_2___96_x_AO_2_5RT_Dispenser__CBU__HE_Frag = {4,5,32,94}
+ENUMS.Storage.weapons.bombs.KMGU_2___96_x_PTAB_2_5KO_Dispenser__CBU__HEAT_AP = {4,5,32,95}
+ENUMS.Storage.weapons.containers.UPK_23_250___2_x_23mm__GSh_23L_Autocannon_Pod = {4,15,46,20}
 -- dupes with typos
 ENUMS.Storage.weapons.bombs.BAP100 = "weapons.bombs.BAP_100"
 ENUMS.Storage.weapons.bombs.BLU3B_GROUP = "weapons.bombs.BLU-3B_GROUP"
@@ -1298,6 +1306,12 @@ ENUMS.Storage.weapons.Gazelle.GIAT_M261_HEAP = {4,15,46,1765}
 ENUMS.Storage.weapons.Gazelle.GIAT_M261_APHE = {4,15,46,1764}
 ENUMS.Storage.weapons.Gazelle.GAZELLE_IR_DEFLECTOR = {4,15,47,680}
 ENUMS.Storage.weapons.Gazelle.GAZELLE_FAS_SANDFILTER = {4,15,47,679}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___blue_ = {4,15,50,83}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___green_ = {4,15,50,82}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___orange_ = {4,15,50,86}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___red_ = {4,15,50,66}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___white_ = {4,15,50,84}
+ENUMS.Storage.weapons.Gazelle.Smoke_Generator___yellow_ = {4,15,50,85}
 -- Chinook (changed)
 ENUMS.Storage.weapons.CH47.CH47_PORT_M60D = {4,15,46,2489}
 ENUMS.Storage.weapons.CH47.CH47_STBD_M60D = {4,15,46,2488}
@@ -1337,6 +1351,31 @@ ENUMS.Storage.weapons.droptanks.FuelTank_370gal = {1,3,43,11}
 ENUMS.Storage.weapons.containers.AV8BNA_GAU_12_AP_M79 = {4,15,46,824}
 ENUMS.Storage.weapons.containers.AV8BNA_GAU_12_HE_M792 = {4,15,46,825}
 ENUMS.Storage.weapons.containers.AV8BNA_GAU_12_SAPHEI_T = {4,15,46,300}
+-- Hip
+ENUMS.Storage.weapons.MI8.PKT_7_62 = {4,15,46,184}
+ENUMS.Storage.weapons.MI8.KORD_12_7 = {4,15,46,183}
+-- Hind
+ENUMS.Storage.weapons.MI24.KORD_12_7_MI24_R = {4,15,46,1294}
+ENUMS.Storage.weapons.MI24.KORD_12_7_MI24_L = {4,15,46,1295}
+ENUMS.Storage.weapons.MI24.UB_32A_24___32_x_UnGd_Rkts__57_mm_S_5KP_HEAT_Frag = {4,7,33,441}
+ENUMS.Storage.weapons.MI24.UB_32A_24___32_x_UnGd_Rkts__57_mm_S_5M_HE = {4,7,33,442}
+-- Random airplane shit
+ENUMS.Storage.weapons.containers.smokewinder_blue = {4,15,50,88}
+ENUMS.Storage.weapons.containers.smokewinder_green = {4,15,50,87}
+ENUMS.Storage.weapons.containers.smokewinder_orange = {4,15,50,91}
+ENUMS.Storage.weapons.containers.smokewinder_red = {4,15,50,67} -- duplicated with weapons.containers.pl5eii
+ENUMS.Storage.weapons.containers.smokewinder_white = {4,15,50,89}
+ENUMS.Storage.weapons.containers.smokewinder_yellow = {4,15,50,91}
+ENUMS.Storage.weapons.containers.mxu648 = {4,15,47,104}
+ENUMS.Storage.weapons.droptanks.ft600 = {1,3,43,103}
+ENUMS.Storage.weapons.droptanks.FuelTank_300_gal = {1,3,43,12}
+ENUMS.Storage.weapons.containers.AKAN_M55_MINGR55_HE = {4,15,46,286}
+ENUMS.Storage.weapons.containers.AKAN_M55_MINGR55_HE_NO_TRACER = {4,15,46,1813}
+ENUMS.Storage.weapons.bombs.BDU_50LGB_F15 = {4,5,9,72}
+ENUMS.Storage.weapons.containers.SUU23 = {4,15,46,2143}
+ENUMS.Storage.weapons.containers.BLU_4B = {4,5,38,486}
+ENUMS.Storage.weapons.containers.smoke_yellow = {4,15,50,90}
+ENUMS.Storage.weapons.missiles.CM_802AKG_WTF = {4,4,8,304}
 
 ---
 -- @type ENUMS.FARPType
